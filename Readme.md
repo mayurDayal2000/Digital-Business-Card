@@ -12,4 +12,4 @@ This is a solution to digital business card solo project on Scrimba. The project
 
 - Solution URL: [https://github.com/mayurDayal2000/Digital-Business-Card](https://github.com/mayurDayal2000/Digital-Business-Card)
 
-- Live site URL: [https://mayurDayal2000.github.io/Digital-Business-Card/](https://mayurDayal2000.github.io/Digital-Business-Card/)
+- Live site URL: [https://digital-business-card-soloproject01.netlify.app](https://digital-business-card-soloproject01.netlify.app)

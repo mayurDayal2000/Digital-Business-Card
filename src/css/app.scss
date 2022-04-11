@@ -1,0 +1,148 @@
+#root {
+  width: 100%;
+  max-width: 320px;
+  background-color: #1a1b21;
+  border-radius: 0px 0px 10px 10px;
+
+  /* all styles for header section - img, name, buttons */
+  header {
+    text-align: center;
+
+    img[alt="my profile logo"] {
+      width: 100%;
+      height: auto;
+      border-radius: 10px 10px 0px 0px;
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: 25px;
+      color: #fff;
+      margin: 20px 0 6px;
+    }
+
+    h3 {
+      font-weight: 400;
+      font-size: 12.8px;
+      color: #f3bf99;
+      margin-bottom: 8px;
+    }
+
+    h4 > a {
+      font-weight: 400;
+      font-size: 10.24px;
+      color: #f5f5f5;
+      text-decoration: none;
+    }
+
+    .btn-group {
+      width: 80%;
+      padding: 16px 0;
+      margin: 0 auto;
+
+      a {
+        text-decoration: none;
+      }
+
+      button {
+        border: none;
+        outline: none;
+        padding: 9px 13px 9px 11px;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+        border-radius: 6px;
+        width: calc(50% - 15px);
+        cursor: pointer;
+        transition-property: all;
+        transition-timing-function: ease-in;
+        transition-duration: 0.3s;
+
+        &:first-child {
+          margin-right: 25px;
+        }
+
+        &:hover {
+          transform: scale(1.2);
+        }
+
+        .btn-title {
+          font-weight: 500;
+          font-size: 14px;
+        }
+
+        .btn-logo {
+          &:first-child {
+            margin-right: 8px;
+          }
+        }
+
+        .top-position {
+          position: relative;
+          top: 2px;
+        }
+      }
+
+      button.email {
+        background: #fff;
+        border: 1px solid #d1d5db;
+
+        .btn-title {
+          color: #374151;
+        }
+      }
+
+      button.linkedin {
+        background: #5093e2;
+
+        .btn-title {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  /* all styles for main section - about, interests */
+  main {
+    width: 80%;
+    margin: 0 auto 42px;
+
+    h2 {
+      font-weight: 700;
+      font-size: 16px;
+      color: #f5f5f5;
+      margin: 22px 0 4px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 10.24px;
+      color: #dcdcdc;
+      line-height: 15.36px;
+    }
+  }
+
+  /* all styles for footer - social icons */
+  footer {
+    background: #161619;
+    padding: 20px;
+
+    ul {
+      list-style: none;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 24px;
+    }
+
+    ul > li {
+      cursor: pointer;
+      transition-property: all;
+      transition-timing-function: ease-in;
+      transition-duration: 0.3s;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}

@@ -1,9 +1,17 @@
 import React from "react";
-import "./css/reset.css";
-import "./components/app.sass";
+
+import Header from "./components/Header";
+import MainContent from "./components/MainContent";
+import Footer from "./components/Footer";
 
 const App = function () {
-  return <h1>App is working!</h1>;
+  return (
+    <>
+      <Header />
+      <MainContent />
+      <Footer />
+    </>
+  );
 };
 
 export default App;
